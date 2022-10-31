@@ -1,0 +1,75 @@
+#operation{
+  width: 100%;
+}
+.operation {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 1082px;
+  background-color: rgba(196, 196, 196, 0.14);
+}
+.container-text-aperation {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+}
+.operation h2 {
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 62px;
+  line-height: 71px;
+  color: rgba(0, 0, 0, 0.63);
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.operation p {
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 41px;
+  line-height: 51px;
+  width: 90%;
+  color: #000000;
+}
+.operation img {
+  width: 649px;
+  height: 433px;
+}
+
+@media screen and (max-width: 1350px){
+  .operation p {
+    font-size: 38px;
+  }
+  .operation img {
+    width: 600px;
+
+}
+}
+@media screen and (max-width: 1120px){
+  .container-text-aperation{
+    flex-direction: column;
+  }
+  .operation p {
+    width: 90%;
+    font-size: 36px;
+    text-align: center;
+  }
+  .operation img {
+    width: 90%;
+}
+.box-text-operation{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.box-img-operation{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+}

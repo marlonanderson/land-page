@@ -1,0 +1,36 @@
+version: '3.4'
+
+services:
+   db:
+       image: mysql
+       container-name: mysql-container
+       com
+
+
+
+
+   apilp:
+
+        image: "./API-LP"
+        container_name: marlonanderson/api-lp
+        restart: always
+        volumes:
+            - ./api-lp:/home
+        ports:
+            - ":
+        
+
+
+
+
+
+
+  landingpage:
+    image: landingpage
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+    environment:
+      NODE_ENV: production
+    ports:
+      - 3000:3000

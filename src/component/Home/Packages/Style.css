@@ -1,0 +1,176 @@
+#packages {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  padding-bottom: 150px;
+  background: #f7f7f7;
+}
+.title-package {
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 62px;
+  line-height: 71px;
+  color: rgba(0, 0, 0, 0.63);
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.packages {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+}
+.header-card {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  width: 80%;
+}
+.header-card span {
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 37px;
+  line-height: 43px;
+  color: #1e1e1e;
+}
+.card-packages {
+  width: 499px;
+  height: 550px;
+  background: #ffffff;
+  box-shadow: 0px 4px 18px rgba(0, 0, 0, 0.25);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 30px;
+}
+.card-packages p {
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 19px;
+  line-height: 22px;
+  width: 80%;
+  height: 200px;
+  color: #000000;
+  text-align: left;
+}
+
+.card-packages div img {
+  width: 68px;
+  height: 68px;
+}
+.card-packages h2 {
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 37px;
+  line-height: 43px;
+
+  /* identical to box height */
+
+  color: #1e1e1e;
+}
+.button-package {
+  width: 280px;
+  height: 73px;
+  background: #000066;
+  border-radius: 13px;
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 30px;
+  color: #ffffff;
+  border: none;
+  margin-top: 30px;
+}
+@media screen and (max-width: 1300px) {
+  .card-packages {
+    width: 430px;
+  }
+}
+@media screen and (max-width: 1150px) {
+  .card-packages {
+    width: 400px;
+  }
+}
+@media screen and (max-width: 1050px) {
+  .card-packages {
+    width: 370px;
+  }
+}
+@media screen and (max-width: 970px) {
+  .card-packages {
+    width: 316px;
+  }
+}
+@media screen and (max-width: 745px) {
+  .packages {
+    flex-direction: column;
+  }
+  .card-packages {
+    width: 340px;
+    height: 100%;
+ 
+  }
+  .card-packages p{
+    height: 100%;
+  }
+  .marginCard {
+    margin-left: 0;
+    margin-top: 20px;
+  }
+}
+@media screen and (max-width: 445px) {
+  .card-packages {
+    width: 300px;
+    height: 100%;
+  }
+}
+@media screen and (max-width: 380px) {
+  .card-packages {
+    width: 235px;
+
+  }
+  .button-package {
+    width: 215px;
+    height: 59px;
+    font-size: 24px;
+    
+  }
+}
+@media screen and (max-width: 320px) {
+  .card-packages p {
+    font-size: 19px; 
+    
+    text-align: center;
+   
+  }
+  .button-package {
+    width: 222px;
+    height: 53px; 
+    font-size: 23px;
+  }
+}
+@media screen and (max-width: 300px) {
+  .card-packages {
+    width: 200px;
+  }
+  .header-card span {
+    font-size: 29px;
+  }
+  .card-packages div img {
+    width: 60px;
+    height: 60px;
+  }
+  .button-package {
+    width: 196px;
+    font-size: 21px;
+    margin-top: 0;
+    height: 40px;
+  }
+}

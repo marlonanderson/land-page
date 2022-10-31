@@ -1,0 +1,94 @@
+#questions {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 100px;
+}
+.questions {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.header-questions {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.header-questions h2 {
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 62px;
+  line-height: 71px;
+  color: rgba(0, 0, 0, 0.63);
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.header-questions h3 {
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 43px;
+  line-height: 49px;
+  color: #a3a3a3;
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.container-card-questions {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+  
+}
+.card-questions {
+  width: 80%;
+  height: 100%;
+  background: #07103b;
+  font-family: "Ubuntu";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  color: #ffffff;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+.icon-questions{
+    font-size: 40px !important;
+    color: #ffffff !important;
+}
+.answers{
+  height: 100% !important;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+@media screen and (max-width: 860px) {
+
+  .card-questions{
+    font-size: 35px;
+  }
+}
+@media screen and (max-width: 560px) {
+
+  .card-questions{
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 6400px) {
+
+  .card-questions {
+    font-size: 27px;
+  }
+}
+@media screen and (max-width: 335px) {
+
+  .header-questions h3 {
+    text-align: center;
+  }
+}
